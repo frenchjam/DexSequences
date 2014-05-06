@@ -14,7 +14,7 @@ OSCILLATIONS	= OscillationRangesNominalVertical.txt OscillationRangesNominalHori
 DISCRETE		= DiscreteRangesHorizontal.txt DiscreteRangesVertical.txt DiscreteDelaySequences.txt DiscreteDelaySequences30.txt DiscreteDelaySequences20.txt
 COLLISIONS		= CollisionSequences.txt CollisionSequences20.txt CollisionSequences30.txt
 
-all: $(COMPILER)  $(TARGETED) $(OSCILLATIONS) $(DISCRETE) $(COLLISIONS)
+all: $(TARGETED) $(OSCILLATIONS) $(DISCRETE) $(COLLISIONS)
 
 # Define implicit rules to convert .xls to .txt, so that we don't have to specify each one.
 .xls.txt:
