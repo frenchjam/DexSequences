@@ -9,7 +9,7 @@
 
 COMPILER	= ..\DexSequenceUpdateWarning\debug\DexSequenceUpdateWarning.exe
 
-TARGETED		= TargetedTargetsVertical20.txt TargetedTargetsVertical30.txt TargetedTargetsVertical60.txt TargetedTargetsHorizontal20.txt TargetedTargetsHorizontal30.txt TargetedTargetsHorizontal60.txt
+TARGETED		= TargetedTargetsVertical10.txt TargetedTargetsVertical20.txt TargetedTargetsVertical30.txt TargetedTargetsVertical60.txt TargetedTargetsHorizontal10.txt TargetedTargetsHorizontal20.txt TargetedTargetsHorizontal30.txt TargetedTargetsHorizontal60.txt
 OSCILLATIONS	= OscillationRangesNominalVertical.txt OscillationRangesNominalHorizontal.txt OscillationRangesReducedVertical.txt OscillationRangesReducedHorizontal.txt
 DISCRETE		= DiscreteRangesHorizontal.txt DiscreteRangesVertical.txt DiscreteDelaySequences10.txt DiscreteDelaySequences20.txt DiscreteDelaySequences30.txt
 COLLISIONS		= CollisionSequences10.txt CollisionSequences20.txt CollisionSequences30.txt
